@@ -1,0 +1,241 @@
+body{
+	font-family: sans-serif;
+	background: rgb(68, 48, 48);
+	color: rgb(177, 188, 191);
+	margin: 0;
+	line-height: 1.6;
+	}
+a{
+	text-decoration: none;
+	color: #ccc;
+}
+.container{
+	margin: 0;
+	padding: 0;
+	background: linear-gradient(rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.8)),url(https://wallpapercave.com/wp/zRkeR21.jpg);
+	opacity: 9px;
+	height:600px;
+	position: relative;
+	overflow-y: hidden;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.logo{
+	text-align: center;
+	font-size: 20px;
+	margin: 0;
+	width: -0.5px;
+
+}
+.logo span{
+	color: rgb(92, 198, 237);
+	text-align: center;
+	font-size: 25px;
+
+}
+.logor{
+	text-align: center;
+	font-size: 60px;
+
+}
+.logor span{
+	color: rgb(92, 198, 237);
+	text-align: center;
+	
+
+}
+nav{
+	width: 100%;
+	height: 40px;
+	background: rgb(67, 100, 108);
+	color: rgb(18, 59, 69);
+	position: fixed;
+}
+nav ul{
+	padding: 0;
+	margin: 0;
+
+}
+nav li{
+	display: inline;
+	float: left;
+}
+nav a{
+	display: inline-block;
+	width: 170px;
+	text-align: center;
+	text-decoration: none;
+	padding: 8px 0;
+	color: rgb(41, 20, 45);
+}
+nav li:hover{
+	background-color: rgb(154, 223, 240);
+	
+}
+.container h1{
+	font-size: 60px;
+	color:rgb(215, 254, 254) ;
+	margin: 0;
+	text-align: center;
+}
+.container h2{
+	font-size: 30px;
+	color: rgb(215, 254, 254);
+	margin: 0;
+	text-align: center;
+}
+.container p{
+	font-size: 15px;
+	color: rgb(215, 254, 254);
+	text-align: center;
+	margin: 0;
+}
+.my-section{
+	background: rgb(149, 208, 229);
+	margin: 0;
+	width: 100%;
+
+	padding: 0;
+	overflow-x: hidden;
+	position: relative;
+}
+.my-section h3{
+	font-size:40px ;
+	color: rgb(18, 24, 56);
+	text-align: center;
+	margin-bottom: 20px;
+
+}
+.my-section h4{
+	font-size:30px ;
+	color: rgb(18, 24, 56);
+	text-align: center;
+
+}
+img{
+	width: 350px;
+	height: 250px;
+	align-self: center;
+	display: inline-block;
+	margin:10px;
+	size: landscape;
+
+
+	transition: 0.5s all;
+
+	}
+img:hover{
+	width: 410px;
+	height: 310px;
+}
+#my-id{
+
+	background: rgb(229, 81, 76);
+	text-align: center;
+
+
+}
+#my-id h2{
+	background: rgb(232, 118, 114);
+	margin: 0;
+	height: 50px;
+	text-align: center;
+	color: rgb(41, 47, 73);
+	font-size: 30px;
+
+}
+#my-idr{
+
+	background:  rgb(229, 81, 76);
+	text-align: center;
+}
+#my-idr h2{
+	background: rgb(232, 118, 114);
+	margin: 0;
+	height: 50px;
+	text-align: center;
+	color: rgb(41, 47, 73);
+	font-size: 30px;
+}
+#my-idrd{
+
+	background:  rgb(229, 81, 76);
+	text-align: center;
+}
+#my-idrd h2{
+	background: rgb(232, 118, 114);
+	margin: 0;
+	height: 50px;
+	text-align: center;
+	color: rgb(41, 47, 73);
+	font-size: 30px;
+}
+.feedback{
+	margin: 0;
+	width: 100%;
+	height: 350px;
+	padding: 10px;
+	text-align: center;
+	background: rgb(36, 95, 183);
+	color: rgb(230, 234, 239);
+}
+.submit{
+
+	background:rgb(229, 86, 119);
+	color: rgb(230, 213, 236);
+	margin: 20px 10px;
+	padding: 10px 15px;
+	border: none;
+	text-decoration: none;
+	font-weight: 600;
+	font-size: 18px;
+}
+ .submit:hover{
+ 	background:rgb(227, 179, 227);
+ }
+ .lower{
+ 	background: rgb(120, 56, 56);
+
+ }
+ footer .footer-cals{
+ 	color: rgb(177, 188, 191);
+ 	
+ 	display: grid;
+	grid-gap: 40px;
+	grid-template-columns: repeat(3, 1fr);
+	padding: 2rem;
+
+	text-align: center;
+	font-size: 14px;
+	padding-top: 10px;
+}
+footer .footer-cals ul{
+	list-style: none;
+
+}
+footer .footer-cals ul li:first-child{
+	font-size: 25px;
+	padding-bottom: 20px;
+	border-bottom: rgb(243, 98, 70) solid 2px;
+	margin: 20px;
+
+}
+.footer-cals ul li {
+	color: rgb(12, 10, 38);
+}
+.footer-cals ul li a{
+	color: rgb(165, 200, 209);
+}
+.design{
+	background: rgb(67, 100, 108);
+	color: rgb(21, 35, 89);
+}
+.footer-last{
+	text-align: center;
+	font-size: 20px;
+}
+
+
+
+
+
